@@ -1,0 +1,64 @@
+body{
+    margin: 0; /*to remove to space between elements*/
+    display: flex; /*to bring elements to the center horizontally*/
+    justify-content: center; /*to bring elements to the center horizontally*/
+    /*to bring elements to the center vertically*/
+    height: 100vh; /*to make it hundred percent of viewport height*/
+    align-items: center;
+    text-align: center; /*to bring inline elements to the center*/
+    background-color: orangered;
+    font-family:fantasy ;
+}
+
+.form{
+    background-color:beige ;
+    padding: 20px; /*distance between window and elements*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input{
+    display:block ; /*to bring submit button under to input box*/
+    width: 100%; /*to make input box all the way*/
+    box-sizing: border-box; /*to fix spaces in left and right section*/
+    font-size: 25px; /*to increase text size in input section*/
+    text-align: center;
+    padding: 10px;
+    border:solid 4px green;
+    color:green;
+
+}
+
+/*to change placeholder*/
+.input::placeholder{
+    color:lightgray;
+    font-family: fantasy;
+}
+
+.btn{
+    background-color: green;
+    color:white;
+    border:none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: fantasy;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer; /*to make cursor become pointer when you on button*/
+
+}
+
+/*to make button a little bit darker when we hover it*/
+.btn:hover{
+    filter: brightness(0.9);
+}
+
+.score{
+    color:green;
+    text-align: right;
+}
